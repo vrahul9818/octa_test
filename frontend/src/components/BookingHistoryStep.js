@@ -14,7 +14,7 @@ const BookingHistoryStep = ({ prevStep, formData }) => {
     const handleBooking = async () => {
       setSubmitting(true);
       try {
-        const response = await fetch('http://localhost:5000/api/bookings/add-booking', {
+        const response = await fetch('http://localhost:5050/api/bookings/add-booking', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
