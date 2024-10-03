@@ -12,7 +12,7 @@ const DateRangeStep = ({ handleSubmit, prevStep, handleDataChange, formData }) =
   // const fetchVehicleBookings = async (id) => {
   //   try {
   //     console.log(id);
-  //     const response = await axios.get(`http:localhost:5000/api/GetVehicleId?id=${id}`);  
+  //     const response = await axios.get(`http:localhost:5050/api/GetVehicleId?id=${id}`);  
   //     if (response.data) {
   //       setBookings(response.data[0]?.bookings || []); 
   //     }
