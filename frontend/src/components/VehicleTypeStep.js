@@ -16,7 +16,7 @@ const VehicleTypeStep = ({ nextStep, prevStep, handleDataChange, formData }) => 
   useEffect(() => {
     const fetchVehicleTypes = async () => {
       try {
-        const response = await fetch(`http://localhost:5000/api/getvehicles?wheels=${formData.wheels}`);
+        const response = await fetch(`http://localhost:5050/api/getvehicles?wheels=${formData.wheels}`);
         if (!response.ok) {
           throw new Error('Network response was not ok');
         }
